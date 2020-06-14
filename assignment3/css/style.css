@@ -1,0 +1,95 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #42021a;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #080808;
+    border-radius: 0;
+    border: 0;
+    height: 60px;
+    
+  }
+  .navbar-brand h1 { /* Restaurant name */
+   
+    color: bisque;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    font-weight: bold;
+    /*text-shadow: 1px 1px 1px burlywood;*/
+    margin-top: 2px;
+    margin-bottom: 2px;
+    line-height: .75;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-brand h1 :hover , .navbar-brand h1 :focus{
+    text-decoration: none;
+  }
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list span{/*dropdown*/
+    font-size: 1.3 em;
+  }
+  #nav-list a {
+    color: bisque ;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background:  #42021a;
+  }
+  h1{/*our menu*/
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    color: bisque;
+  }
+  section{
+    background-color: #61122f;
+  }
+  #cheesecake {
+    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 15px
+  }
+  
+  #pizza {
+    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 15px;
+    
+  }
+  
+  #pasta {
+    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 15px;
+  }
+  section p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  
+  
